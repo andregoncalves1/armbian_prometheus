@@ -2,10 +2,10 @@
 
 ## Install Prometheus
 
-- Run install_start.sh
+- Run install_prometheus_start.sh
 
 ```sh
-sh install_start.sh
+sh install_prometheus_start.sh
 ```
 
 - Copy prometheus config to /etc/prometheus/ 
@@ -20,10 +20,10 @@ sudo cp <repo_clone>/prometheus.yml /etc/prometheus/
 sudo cp <repo_clone>/prometheus.service /etc/systemd/system/
 ```
 
-- Run install_finish.sh
+- Run install_prometheus_finish.sh
 
 ```sh
-sh install_finish.sh
+sh install_prometheus_finish.sh
 ```
 
 ## Install Node Exporter
