@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo groupadd --system prometheus
 sudo useradd -s /sbin/nologin --system -g prometheus prometheus
 sudo mkdir /var/lib/prometheus
